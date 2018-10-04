@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Document</title>
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+		</head>
+		<body>
+			<div class="contenedor-form">
+				<div class="toggle">
+					<span id="i4" onclick="invi();">Register</span>
+					<span id="i5" onclick="visi();">Login</span>
+				</div>
+
+				<div id="i1" class="formulario">
+					<h2>Login</h2>
+					<form action="#">
+						<input type="text" placeholder="User" required="">
+						<input type="password" placeholder="Password" required="">
+						<input type="submit" value="Log In">					
+					</form>
+				</div>
+
+				<div id="i3" class="formulario">
+					<h2>Create Your Account</h2>
+					<form action="#" >
+						<input id="d" type="text" placeholder="User" required="">
+						<input id="em" type="email" placeholder="E-mail" required="">
+						<input id="p" type="text" placeholder="Phone">
+						<input id="ps" type="password" placeholder="Password" required="">
+						<input id="cps" type="password" placeholder="Confirm your password" required="">
+						<label id="info"></label>
+						<input type="submit" onclick="pass();" value="Register">					
+					</form>
+				</div>		
+
+				<div id="i2" class="reset-password">
+					<a href="#">Forgot Password</a>
+				</div>
+
+			</div>
+
+			<script src="js/jq.js"></script>
+			<script src="js/js.js"></script>
+		</body>
+	</html>
